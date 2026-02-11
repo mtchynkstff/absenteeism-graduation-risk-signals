@@ -1,5 +1,8 @@
 # Absenteeism–Graduation Risk Signals
 
+## Key Takeaway
+Chronic absenteeism is meaningfully associated with graduation outcomes, but explains only a small share of the variation. Its greatest value lies in early risk stratification and residual-based prioritization—helping identify districts that miss graduation expectations even when attendance levels appear favorable.
+
 ## Overview
 This project examines whether **chronic absenteeism can function as an early risk signal for graduation outcomes** at the U.S. school district (LEA) level. Using public federal education data, the analysis integrates school-level absenteeism from the Civil Rights Data Collection (CRDC) with district-level graduation rates from EDFacts.
 
