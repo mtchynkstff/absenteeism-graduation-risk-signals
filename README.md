@@ -82,6 +82,7 @@ Results should be used for **prioritization and hypothesis generation**, not att
 ---
 
 ## Repository Structure
+```
 ├── data/
 │ ├── raw/ # Original CRDC and EDFacts files
 │ └── processed/ # Cleaned, analysis-ready datasets
@@ -94,6 +95,7 @@ Results should be used for **prioritization and hypothesis generation**, not att
 ├── reports/
 │ └── decision_memo.md
 └── README.md
+```
 
 ---
 
