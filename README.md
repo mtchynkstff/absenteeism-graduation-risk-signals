@@ -18,6 +18,8 @@ baseline (MAE 5.08 vs. 5.05, RMSE 8.19 vs. 8.22) — the added model complexity 
 4. Compare a linear regression baseline against a random forest tuned via GridSearchCV
 5. Segment analysis by absenteeism level to test whether the random forest's flexibility pays off in the noisier, high-absenteeism range (it didn't — see notebook 05 for detail)
 
+Data prep is implemented in both pandas and SQL (DuckDB), with matching outputs confirmed in `06_data_prep_sql.ipynb`.
+
 ## Repository Structure
 ```
 ├── data/
