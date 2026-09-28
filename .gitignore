@@ -1,3 +1,7 @@
 .ipynb_checkpoints/
 data/.DS_Store
 .DS_Store
+*.twbr
+data/processed/district_explorer.twbx
+data/processed/Graduation vs. Absenteeism District Explorer .twb
+*.hyper

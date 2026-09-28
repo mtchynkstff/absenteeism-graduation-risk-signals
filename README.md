@@ -2,6 +2,8 @@
 
 Predicting district-level graduation rates from chronic absenteeism using federal education data (CRDC + EDFacts), comparing a linear regression baseline against a tuned random forest.
 
+**Interactive dashboard:** [Graduation vs. Absenteeism: District Explorer (Tableau Public)](https://public.tableau.com/app/profile/mitchell.yenkastoff/viz/Graduationvs_AbsenteeismDistrictExplorer/Dashboard). Search any district to compare its 2017-18 graduation rate with the model's prediction.
+
 ## Key Finding
 Chronic absenteeism is a meaningful predictor of graduation rate (linear regression, R² = 0.29), but a tuned random forest offers no real improvement over the linear 
 baseline (MAE 5.08 vs. 5.05, RMSE 8.19 vs. 8.22) — the added model complexity isn't justified here. Linear regression was selected as the final model for its interpretability.
@@ -22,6 +24,8 @@ baseline (MAE 5.08 vs. 5.05, RMSE 8.19 vs. 8.22) — the added model complexity 
 
 Data prep is implemented in both pandas and SQL (DuckDB), with matching outputs confirmed in `06_data_prep_sql.ipynb`.
 
+District-level predictions for the dashboard come from the same linear regression, refit and checked against notebook 05 in `07_tableau_export.ipynb`.
+
 ![Model Comparison](reports/images/model_comparison_bar.png)
 
 ## Repository Structure
@@ -35,7 +39,8 @@ Data prep is implemented in both pandas and SQL (DuckDB), with matching outputs 
 │ ├── 03_join_graduation_absenteeism.ipynb
 │ ├── 04_eda_feature_engineering.ipynb
 │ ├── 05_model_comparison.ipynb
-│ └── 06_data_prep_sql.ipynb
+│ ├── 06_data_prep_sql.ipynb
+│ └── 07_tableau_export.ipynb
 ├── reports/
 │ └── images/ # Figures used in this README
 └── README.md
