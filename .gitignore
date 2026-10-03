@@ -5,3 +5,4 @@ data/.DS_Store
 data/processed/district_explorer.twbx
 data/processed/Graduation vs. Absenteeism District Explorer .twb
 *.hyper
+notebooks/06_data_prep_sql_rewrite.ipynb
